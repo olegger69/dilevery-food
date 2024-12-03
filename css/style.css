@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -28,10 +30,13 @@ body {
     justify-content: space-between;
 }
 
-.main {}
+.main {
+    border: 1 px solid red;
+}
 
 .footer {
     height: 156px;
+   
     border: 1 px solid red;
 }
 
