@@ -9,6 +9,28 @@ body {
     padding: 0;
 }
 
+.btn {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 4px;
+    outline: none;
+}
+
+.btn-primary {
+    border-radius: 2px;
+    background: #1890FF;
+    border: 1px solid #1890FF;
+}
+
+.btn-outline {
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.00);
+    color: #595959;
+}
+
 .logo {
     min-width: 100px;
 }
@@ -19,7 +41,6 @@ body {
 
 .header {
     height: 124px;
-    border: 1px solid red;
 }
 
 .header-box {
@@ -30,14 +51,19 @@ body {
     justify-content: space-between;
 }
 
+.header-controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
 .main {
     border: 1 px solid red;
 }
 
 .footer {
     height: 156px;
-   
-    border: 1 px solid red;
 }
 
 .footer-box {
